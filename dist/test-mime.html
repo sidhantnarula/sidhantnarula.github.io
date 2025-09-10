@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MIME Type Test</title>
+</head>
+<body>
+    <h1>MIME Type Test</h1>
+    <p>This page tests if JavaScript files are served with the correct MIME type.</p>
+    <script>
+        // Test if we can load the main script
+        fetch('./assets/index-DGk1zwO8.js')
+            .then(response => {
+                console.log('Response headers:', response.headers);
+                console.log('Content-Type:', response.headers.get('content-type'));
+                if (response.headers.get('content-type')?.includes('application/javascript')) {
+                    console.log('✅ MIME type is correct!');
+                } else {
+                    console.log('❌ MIME type is incorrect:', response.headers.get('content-type'));
+                }
+            })
+            .catch(error => {
+                console.error('Error loading script:', error);
+            });
+    </script>
+</body>
+</html>

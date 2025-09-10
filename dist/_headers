@@ -1,11 +1,28 @@
-/assets/*
-  Content-Type: application/javascript; charset=utf-8
+# MIME type configuration for GitHub Pages
 
+# JavaScript files
 /*.js
   Content-Type: application/javascript; charset=utf-8
 
+# ES Module files
 /*.mjs
   Content-Type: application/javascript; charset=utf-8
 
+# CSS files
 /*.css
   Content-Type: text/css; charset=utf-8
+
+# Assets directory
+/assets/*
+  Content-Type: application/javascript; charset=utf-8
+
+# Specific asset files
+/project-3/assets/*.js
+  Content-Type: application/javascript; charset=utf-8
+
+/project-3/assets/*.mjs
+  Content-Type: application/javascript; charset=utf-8
+
+/project-3/assets/*.css
+  Content-Type: text/css; charset=utf-8
+

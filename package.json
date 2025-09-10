@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/fix-mime-types.js",
+    "build:gh-pages": "vite build --base=/project-3/ && node scripts/fix-mime-types.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
