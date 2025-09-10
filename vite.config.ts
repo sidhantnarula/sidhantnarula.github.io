@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/project-3/', // Use repository name as base path
+  base: '/', // Use root path for user site
   build: {
     rollupOptions: {
       output: {
