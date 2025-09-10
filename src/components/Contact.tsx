@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:[sidhantnarula42@gmail.com]"
+                href="mailto:sidhantnarula42@gmail.com"
                 className="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-md hover:border-blue-300 dark:hover:border-blue-600 transition-all group"
               >
                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center group-hover:bg-blue-200 dark:group-hover:bg-blue-900/50 transition-colors">

@@ -66,7 +66,7 @@ function App() {
         "Agentic AI Security"
       ],
       "sameAs": [
-        "[https://www.linkedin.com/in/sidhant-narula/]"
+        "https://www.linkedin.com/in/sidhant-narula/"
       ]
     };
 
